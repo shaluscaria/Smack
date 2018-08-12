@@ -14,6 +14,7 @@
 		56FE6090211FF5F500A9799C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FE608F211FF5F500A9799C /* SWRevealViewController.m */; };
 		56FE6096211FFFF500A9799C /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE6095211FFFF500A9799C /* ChatVC.swift */; };
 		56FE60982120001600A9799C /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE60972120001600A9799C /* ChannelVC.swift */; };
+		56FE609A2120EC4600A9799C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE60992120EC4600A9799C /* GradientView.swift */; };
 		E3F66591A3857EA19B7A2CB7 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D936FE6CF5086BECE2234E /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		56FE608F211FF5F500A9799C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		56FE6095211FFFF500A9799C /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		56FE60972120001600A9799C /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		56FE60992120EC4600A9799C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		94F8EDB63FAB782F8A42D769 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +120,7 @@
 		56FE6094211FFFE400A9799C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				56FE60992120EC4600A9799C /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			files = (
 				56FE60982120001600A9799C /* ChannelVC.swift in Sources */,
 				56FE6096211FFFF500A9799C /* ChatVC.swift in Sources */,
+				56FE609A2120EC4600A9799C /* GradientView.swift in Sources */,
 				56FE607A211FF28600A9799C /* AppDelegate.swift in Sources */,
 				56FE6090211FF5F500A9799C /* SWRevealViewController.m in Sources */,
 			);
