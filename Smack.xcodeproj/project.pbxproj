@@ -15,6 +15,8 @@
 		56FE6096211FFFF500A9799C /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE6095211FFFF500A9799C /* ChatVC.swift */; };
 		56FE60982120001600A9799C /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE60972120001600A9799C /* ChannelVC.swift */; };
 		56FE609A2120EC4600A9799C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE60992120EC4600A9799C /* GradientView.swift */; };
+		56FE609E2120FD2600A9799C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE609D2120FD2600A9799C /* Constants.swift */; };
+		56FE60A2212102FB00A9799C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE60A1212102FB00A9799C /* LoginVC.swift */; };
 		E3F66591A3857EA19B7A2CB7 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D936FE6CF5086BECE2234E /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		56FE6095211FFFF500A9799C /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		56FE60972120001600A9799C /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		56FE60992120EC4600A9799C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		56FE609D2120FD2600A9799C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		56FE60A1212102FB00A9799C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		94F8EDB63FAB782F8A42D769 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +82,7 @@
 		56FE6078211FF28600A9799C /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				56FE609C2120FD1200A9799C /* Utilities */,
 				56FE6094211FFFE400A9799C /* View */,
 				56FE6093211FFFD700A9799C /* Controller */,
 				56FE6091211FFFCA00A9799C /* Model */,
@@ -113,6 +118,7 @@
 			children = (
 				56FE6095211FFFF500A9799C /* ChatVC.swift */,
 				56FE60972120001600A9799C /* ChannelVC.swift */,
+				56FE60A1212102FB00A9799C /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -123,6 +129,14 @@
 				56FE60992120EC4600A9799C /* GradientView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		56FE609C2120FD1200A9799C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				56FE609D2120FD2600A9799C /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		F3A8DBE4D41EBBA0DFE2764B /* Frameworks */ = {
@@ -255,9 +269,11 @@
 			files = (
 				56FE60982120001600A9799C /* ChannelVC.swift in Sources */,
 				56FE6096211FFFF500A9799C /* ChatVC.swift in Sources */,
+				56FE60A2212102FB00A9799C /* LoginVC.swift in Sources */,
 				56FE609A2120EC4600A9799C /* GradientView.swift in Sources */,
 				56FE607A211FF28600A9799C /* AppDelegate.swift in Sources */,
 				56FE6090211FF5F500A9799C /* SWRevealViewController.m in Sources */,
+				56FE609E2120FD2600A9799C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
